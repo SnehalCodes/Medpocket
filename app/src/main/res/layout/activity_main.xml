@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:overScrollMode="never"
+    android:scrollbars="none"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/medicalbackmenusne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <pl.droidsonroids.gif.GifTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/authchange" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Enter Number"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:text="we will send you one time password"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="1.5dp"
+            android:inputType="number"
+            android:background="@drawable/btn"
+            android:textSize="15dp"
+            android:textColor="@color/design_default_color_primary"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTintMode="screen"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:hint="Enter Phone Number"
+            android:padding="28dp"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/btnGetOTP"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="Get OTP"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

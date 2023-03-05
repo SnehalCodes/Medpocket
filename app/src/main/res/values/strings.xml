@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Presco_Ipdo</string>
+
+    <string-array name="Hospitals">
+        <item>Select Hospital</item>
+        <item>Criticare Hospital</item>
+        <item>Wadia Hospital</item>
+        <item>Surya Hospital</item>
+        <item>Neuralbits Hospital</item>
+    </string-array>
+</resources>
